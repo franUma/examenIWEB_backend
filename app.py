@@ -73,7 +73,7 @@ def subirFotoBD():
                     "email": str(datos["email"]),
                     "descripcion": str(datos["descripcion"]),
                     "url": str(datos["url"]),
-                    "likes": str(0)
+                    "likes": 0
                 })
                 return jsonify(msg="Post creado", new_id=str(res.inserted_id))
             else:
