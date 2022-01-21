@@ -25,7 +25,7 @@ cloudinary.config(
 )
 
 #################################################################################################################################
-CLIENT_ID = "821030033510-0rlhbtj2eaofuc0q6k6lpalg8qj0c5iu.apps.googleusercontent.com"
+CLIENT_ID = "821030033510-lcn1p8r2bbidgcib19fln358pqvc9f4o.apps.googleusercontent.com"
 
 @app.route('/api/google-login', methods=['POST'])
 def login():
